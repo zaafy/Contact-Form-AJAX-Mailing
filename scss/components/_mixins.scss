@@ -1,0 +1,12 @@
+@function rem-calc($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}
+
+%color-button {
+  background: #010719;
+  background: -moz-linear-gradient(20deg, #010719 0%, #0096aa 50%, #010719 100%);
+  background: -webkit-linear-gradient(20deg, #010719 0%,#0096aa 50%,#010719 100%);
+  background: linear-gradient(20deg, #010719 0%,#0096aa 50%,#010719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010719', endColorstr='#010719',GradientType=1 );
+}

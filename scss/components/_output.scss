@@ -1,0 +1,17 @@
+.output {
+  width: rem-calc(640);
+  margin: 1rem auto;
+  display: none;
+  padding: 1rem 2rem;
+  background-color: $secondary-color;
+  border-radius: 3px;
+  font-size: rem-calc(14);
+  text-align: center;
+  line-height: 2;
+  color: $primary-color;
+
+  span {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}

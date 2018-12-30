@@ -1,0 +1,18 @@
+html {
+	box-sizing: border-box;
+	font-size: $global-font-size;
+	font-family: $font-family;
+	font-weight: $font-weight-light;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background: $primary-color;
+}
