@@ -1,0 +1,22 @@
+{
+  "name": "contact-form",
+  "version": "0.1.1",
+  "description": "Simple contact form with SCSS",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^2.2.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.2.0",
+    "bootstrap": "^4.1.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "minify": "^3.0.5",
+    "source-map": "^0.7.3"
+  }
+}
